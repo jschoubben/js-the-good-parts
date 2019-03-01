@@ -6,14 +6,14 @@
 
 ## Discussion
 
-- ### Chapter 5 - Inheritance
+- ### **Chapter 5 - Inheritance**
 
-  - 5.1 Pseudoclassical
+  - **5.1 Pseudoclassical**
 
     Very difficult explanation of how prototypes and inheritance work in javascript\
     The image below is hopefully a better explanation
   
-  - 5.2 Object specifiers
+  - **5.2 Object specifiers**
 
       Rather than: `var myObject = maker (f, l, m, c, s)` which has too many parameters to remember in the right order, use an _object specifier_:
       ```javascript
@@ -30,11 +30,11 @@
       ```
       They can now be **listed in any order**
 
-  - 5.3 Prototypal
+  - **5.3 Prototypal**
       
     Also, will be explained by the image below
 
-  - 5.4 Functional
+  - **5.4 Functional**
 
     This way of defining objects is used in traditional javascript web development when making a custom library or module.
     
@@ -42,7 +42,7 @@
 
     See the "module" folder for an example of how to create your custom application module in a web application
 
-  - 5.5 Parts
+  - **5.5 Parts**
 
     He want to show a way of how to get around the prototyping inheritance part bu creating "parts".\
     If you need this kind of functionality, you will also know how to use it so don't pay too much attention to it.\
@@ -59,9 +59,9 @@
 
 ![Prototype chain](./images/javascript-prototype-chain.png "Prototype chain")
 
-- ### Chapter 6 - Arrays
+- ### **Chapter 6 - Arrays**
 
-  - 6.1 Array litterals
+  - **6.1 Array litterals**
   
     In Javascript, you can create a new array very easily:
 
@@ -80,7 +80,7 @@
     console.log(mySpecialObject[1]); // one
     ```
 
-  - 6.2 Length
+  - **6.2 Length**
 
     Holes in an array are taken into account by the .length function
 
@@ -91,7 +91,7 @@
     console.log(rollerSkate.length); // 11
     ```
 
-  - 6.1 Delete
+  - **6.3 Delete**
 
     Always use the .splice method, with "delete" you leave holes in the array
     ``` Javascript
@@ -102,7 +102,7 @@
       console.log(`${russianRoulette[0]} survived`);
     ```
 
-  - 6.2 Enumeration
+  - **6.4 Enumeration**
     
     Never use *for in* on an array, use the .forEach(function(element)){} method instead
 
@@ -113,11 +113,11 @@
       });
     ```
 
-  - 6.1 Confusion
+  - **6.5 Confusion**
 
     Remember that you cannot easily detect if an object is an array or not
 
-  - 6.2 Methods
+  - **6.6 Methods**
 
     This is actually part of the previous chapter. He is trying to create an extension method for all arrays.
 
@@ -133,7 +133,7 @@
 
     ```
 
-  - 6.7 Dimensions
+  - **6.7 Dimensions**
 
     You can create multi-dimensional arrays like so:
 
